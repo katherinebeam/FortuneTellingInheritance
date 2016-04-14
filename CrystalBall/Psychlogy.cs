@@ -48,14 +48,14 @@ namespace CrystalBall
                     MessageFromPsychToClient();
                     break;
                 default:
-                    this.Type = "General";
+                    this.Type = "General Psychology";
                     MessageFromPsychToClient();
                     break;
             }
         }
 
         //Method to inform user that their request will be responded to by the appropriate psychology specialist soon
-        private void MessageFromPsychToClient()
+        public void MessageFromPsychToClient()
         {
             Console.WriteLine("I will have our " + this.Type + " specialist give you a call soon. Thank you for stopping by!");
         }

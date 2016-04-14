@@ -20,6 +20,8 @@ namespace CrystalBall
             fortuneTeller.Farewell();
             TarotCard tarot = new TarotCard();
             tarot.ReadFortune();
+            Psychlogist psycho = new Psychlogist();
+            psycho.psycheTypeMenu();
         }
     }
 }
