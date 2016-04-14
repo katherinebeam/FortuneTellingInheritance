@@ -34,7 +34,7 @@ namespace CrystalBall
             Random rand = new Random();
             //Use random number to access a random card in the key list
             string titleOfCard = listOfCardNames[rand.Next(listOfCardNames.Count)];
-            //Returns the card name for the random card selected 
+            //Returns the name of the random selected card 
             return titleOfCard;
         }
 
